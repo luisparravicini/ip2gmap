@@ -1,4 +1,4 @@
 
 5000.times do
-  puts [rand(255), rand(255), rand(255), rand(255)].join('.')
+  puts 4.times.map { rand(255) }.join('.')
 end
